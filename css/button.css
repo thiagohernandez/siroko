@@ -1,0 +1,67 @@
+.btn {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 16px 36px;
+    color: rgb(46,46,46);
+    box-shadow: 0px 15px 15px -15px rgba(0, 0, 0, 0.25), 0px 10px 15px rgba(85, 234, 136, 0.05);
+
+    -moz-transition-property: border, color, background-color, box-shadow;
+    -webkit-transition-property: border, color, background-color, box-shadow;
+    transition-property: border, color, background-color, box-shadow;
+
+    -moz-transition: 300ms ease-in-out;
+    -webkit-transition: 300ms ease-in-out;
+    transition: 300ms ease-in-out;
+}
+.btn:hover {
+    box-shadow: 0px 25px 25px -25px rgba(0, 0, 0, 0.25), 0px 4px 6px rgba(85, 234, 136, 0.05);
+}
+.btn svg {
+    fill: rgb(46,46,46);
+    vertical-align: -0.01em;
+
+    -moz-transition: 300ms fill ease-in-out;
+    -webkit-transition: 300ms fill ease-in-out;
+    transition: 300ms fill ease-in-out;
+} 
+
+
+.btn-icon-left svg {
+    display: inline-block;
+    margin-right: 12px; 
+} 
+
+.btn-add-cart {
+    background: #F4D27C;
+    border: 1px solid #E4C066;
+}
+
+.btn-add-cart:hover {
+    color: rgba(0,0,0);
+    background: #E4C066;
+    border: 1px solid #d3b15b;
+}
+.btn-add-cart:hover svg{
+    color: rgba(0,0,0);
+}
+
+.btn-primary {
+    color: white;
+    background: #7CB63D;
+    border: 1px solid #6DA036;
+}
+.btn-primary svg{
+    fill: white;
+}
+.btn-primary:hover {
+    color: white;
+    background: #6DA036;
+    border: 1px solid #5c8a2b;
+}
+.btn-primary:hover svg{
+    fill: white;
+}

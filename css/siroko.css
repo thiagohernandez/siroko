@@ -1,0 +1,30 @@
+body {
+    padding-top: 5rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
+    color: black;
+}
+.main {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.padding--inner {
+  padding: 64px;
+  background-color: rgba(171, 178, 211, .1);
+  border: 1px dashed rgba(171, 178, 211, .2);
+  margin-top: 32px; 
+}
+
+h4 {
+  letter-spacing: -0.05em;
+  opacity: 0.65;
+}
+
+  
